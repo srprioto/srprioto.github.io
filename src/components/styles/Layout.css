@@ -1,0 +1,30 @@
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.layout .main {
+    width: 100%;
+}
+
+.layout .main .header {
+    margin-top: 90px;
+}
+
+.layout .main .header h1 {
+    font-size: 1.2em;
+    font-weight: 400;
+    display: inline;
+}
+
+.layout .footer{
+    width: 100%;
+    align-self: flex-end;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.layout .footer h6{
+    color: var(--plomo)
+}

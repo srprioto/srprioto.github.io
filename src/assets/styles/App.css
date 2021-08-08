@@ -1,0 +1,122 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');  
+ */
+
+*{margin:0; padding:0;}
+
+:root{
+    --product: 'Product Sans', sans-serif; /* 300 y 500 */
+    --ibm: 'IBM Plex Mono', monospace; /* 300 y 400 */
+
+    /* --oscuro: #272727; */
+    --fondo: #171717;
+    --scroll: #c42a2f61;
+
+    --blanco: #c5c5c5;
+    --plomo: #777777;
+    --narajna: #f55422;
+    --rojo: #ff3d4f;
+    --amarillo: #ffc209;
+
+    --espLetras: 0.5px;
+}
+
+body{
+    color: var(--blanco);
+    background-color: var(--fondo);
+    font-family: var(--product);
+    height: 100vh;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    /* position: relative;
+    overflow: hidden; */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    background-color: var(--fondo);
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scroll);
+    border-radius: 4px;
+    transition-delay: 1s;
+}
+
+body:hover::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scroll);
+    transition-delay: 1s;
+}
+
+/* app */
+
+div#root {
+    z-index: 1;
+    position: relative;
+}
+
+
+img{border: none; padding:0; max-width:100%; height:auto;}
+img a{border:none;}
+
+h1, h2, h3, h4{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 300;
+}
+
+h1, h2{
+    font-family: var(--product);
+    font-weight: 500;
+    letter-spacing: var(--espLetras);
+}
+
+h3, h4, p, span{
+    font-family: var(--product);
+    font-weight: 300;
+    letter-spacing: var(--espLetras);
+}
+
+h5, h6{
+    font-family: var(--product);
+    font-weight: 300;
+}
+
+li{
+    font-family: var(--product);
+    font-weight: 300;
+}
+
+a, h5, h6{
+    font-family: var(--ibm);
+    font-weight: 400;
+    color: var(--blanco);
+}
+
+strong {
+    color: var(--rojo);
+    font-weight: unset;
+}
+
+
+/* links */
+a{ text-decoration:none; }
+a:hover{ text-decoration: none; }
+
+li{list-style: none;}
+
+/* Generales */
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+    box-sizing: border-box; /*Alternar*/
+}
+
+.vh {
+    height: 100vh;
+}

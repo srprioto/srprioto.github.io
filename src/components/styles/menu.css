@@ -1,0 +1,48 @@
+.menu {
+    margin-top: 2px;
+}
+
+.menu ul li a{
+    transition: .2s
+}
+
+.menu ul li a:hover{
+    transition: .2s;
+    color: var(--plomo);
+}
+
+.menu ul li .menu-active{
+    color: var(--rojo);
+    position: relative;
+}
+
+.menu ul li .menu-active::before {
+    content: "_";
+    font-size: 25px;
+    position: absolute;
+    right: -15px;
+    top: -13px;
+    animation: flicker 1s infinite backwards;
+}
+
+.menu ul li .menu-active::after{
+    content: "\\";
+    
+}
+
+
+
+@keyframes flicker {
+    0% { 
+        opacity: 1;
+    }
+    50% { 
+        opacity: 1;
+    }
+    51% { 
+        opacity: 0;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
