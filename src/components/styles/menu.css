@@ -2,8 +2,12 @@
     margin-top: 2px;
 }
 
+.menu ul li {
+    margin: 0 0 7px 0;
+}
+
 .menu ul li a{
-    transition: .2s
+    transition: .2s;
 }
 
 .menu ul li a:hover{

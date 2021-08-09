@@ -15,11 +15,11 @@
     text-align: right;
 }
 
-.home .main-home .box3 img {
+/* .home .main-home .box3 img {
     width: 350px;
     opacity: 50%;
-    /* filter: hue-rotate(121deg); */
-}
+    
+} */
 
 .home .main-home .box2{
     display: flex;

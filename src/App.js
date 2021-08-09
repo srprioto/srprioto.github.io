@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 
 import './assets/fuentes/fuentes.css';
 import './assets/styles/lines.css';
@@ -14,12 +15,14 @@ import Education from './pages/Education'
 function App() {
     return (
         <BrowserRouter>
-            <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/acerca_de_mi' component={Perfil} />
-                <Route exact path='/habilidades' component={Skills} />
-                <Route exact path='/educacion' component={Education} />
-            </Switch>
+            <AnimatePresence>
+                <Switch>
+                    <Route exact path='/' component={Home} />
+                    <Route exact path='/acerca_de_mi' component={Perfil} />
+                    <Route exact path='/habilidades' component={Skills} />
+                    <Route exact path='/educacion' component={Education} />
+                </Switch>
+            </AnimatePresence>
         </BrowserRouter>
     );
 }
