@@ -16,8 +16,10 @@
 
     --blanco: #c5c5c5;
     --plomo: #777777;
+    --lineas: rgba(255, 255, 255, 0.1);
     --naranja: #f55422;
     --rojo: #ff3d4f;
+    --rojo_alt: #b90000;
     --amarillo: #ffc209;
 
     --espLetras: 0.5px;
@@ -47,33 +49,41 @@ div#root {
 img{border: none; padding:0; max-width:100%; height:auto;}
 img a{border:none;}
 
-h1, h2, h3, h4{
+h1, h2, h3{
+    font-family: var(--product);
     margin-top: 0;
     margin-bottom: .5rem;
-    font-weight: 300;
 }
 
 h1, h2{
-    font-family: var(--product);
     font-weight: 500;
     letter-spacing: var(--espLetras);
 }
 
-h3, h4, p, span{
-    font-family: var(--product);
-    font-weight: 300;
+h3, h4, p{
     letter-spacing: var(--espLetras);
 }
 
-h5, h6{
+h3 {
+    font-weight: 500;
+}
+
+span, li{
     font-family: var(--product);
     font-weight: 300;
 }
 
-li{
-    font-family: var(--product);
-    font-weight: 300;
+a, h4, h5, h6{
+    font-family: var(--ibm);
+    font-weight: 400;
+    color: var(--blanco);
 }
+
+strong {
+    color: var(--rojo);
+    font-weight: unset;
+}
+
 
 .list-icon ul {
     margin: 30px 0;
@@ -91,23 +101,19 @@ li{
     color: var(--rojo);
 }
 
-a, h5, h6{
-    font-family: var(--ibm);
-    font-weight: 400;
-    color: var(--blanco);
+.list-two-columns ul{
+    columns: 2; 
+    -webkit-columns: 2; 
+    -moz-columns: 2; 
 }
-
-strong {
-    color: var(--rojo);
-    font-weight: unset;
-}
-
 
 /* links */
 a{ text-decoration:none; }
 a:hover{ text-decoration: none; }
 
 li{list-style: none;}
+
+
 
 /* Generales */
 .container {
@@ -121,11 +127,10 @@ li{list-style: none;}
 }
 
 .scroll {
-    /* position: relative; */
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-/* 
 .scroll::-webkit-scrollbar {
     background-color: var(--fondo);
     width: 6px;
@@ -142,4 +147,7 @@ li{list-style: none;}
     background-color: var(--scroll);
     transition-delay: 1s;
 } 
-*/
+
+.cutout{
+    height: calc(100vh - 330px);
+}

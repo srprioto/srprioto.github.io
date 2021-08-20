@@ -1,0 +1,25 @@
+.poop{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poop .poop-box{
+    text-align: center;
+}
+
+.poop .poop-box img {
+    width: 150px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.poop .poop-box h4{
+    margin-bottom: 20px;
+}
+
+.poop .poop-box a{
+    color: var(--rojo);
+}

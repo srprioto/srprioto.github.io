@@ -1,17 +1,36 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './styles/education.css';
 
 import Layout from '../components/Layout';
 import Structure from '../components/Structure';
 import books from '../assets/images/iconos/books.svg';
+import educData from '../data/educData';
+
+import Tabs from '../components/Tabs';
 
 export default class Education extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: educData
+        }
+    }
+    
     render() {
+
+        const data = this.state.data;
+
         return (
             <Layout>
                 <Structure icon={books} title="Educación">
-                    educación
 
-                    
+                    <div className="education-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, quas laborum autem distinctio necessitatibus quasi.</p>
+                    </div>
+
+                    <Tabs data={data} />
+
                 </Structure>
             </Layout>
         )

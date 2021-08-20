@@ -1,7 +1,7 @@
 .structure {
     margin-top: 55px;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 70% 10%;
     grid-template-rows: 90px 1fr;
     grid-gap: 0px 0px;
     grid-template-areas:

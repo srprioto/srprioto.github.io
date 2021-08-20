@@ -22,16 +22,21 @@ class Home extends Component {
 
     constructor(props) {
         super(props);
-        
         this.transition = {
             duration: .5,
             delay: .5,
             ease: "easeInOut"
         }
 
+        
+    }
+
+    componentDidMount(){
+        document.title = "Mi Portafolio"
     }
 
     render() {
+
         return (
             <motion.div
                 initial={{ opacity: 0, y: "1%" }}

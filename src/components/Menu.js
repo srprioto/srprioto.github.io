@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {NavLink} from 'react-router-dom'
-// import Typed from 'react-typed';
 
 import './styles/menu.css'
 
@@ -16,7 +15,6 @@ export default class Menu extends Component {
                             activeClassName="menu-active" 
                             >.{'\\>'} Perfil
                         </NavLink>
-                        {/* <Typed strings={['./> Perfil']} typeSpeed={50}/>  */}
                     </li>
 
                     <li>
@@ -31,15 +29,32 @@ export default class Menu extends Component {
                     <li>
                         <NavLink 
                             exact 
+                            to="/proyectos" 
+                            activeClassName="menu-active" 
+                            >.{'\\>'} Proyectos
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink 
+                            exact 
+                            to="/experiencia" 
+                            activeClassName="menu-active" 
+                            >.{'\\>'} Experiencia
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink 
+                            exact 
                             to="/educacion" 
                             activeClassName="menu-active" 
                             >.{'\\>'} Educación
                         </NavLink>
                     </li>
 
-                    <li></li>
-                    <li></li>
-                    <li></li>
+
+                    
                 </ul>
             </div>
         )
