@@ -6,7 +6,7 @@ const expData = [
         description: 
             <div>
                 <p>Actualmente me dedico a la creación de aplicaciones de forma independiente como desarrollador FullStack, esto me permite seguir acumulando experiencia con distintos proyectos para clientes y empresas que lo requieran.</p>
-                <p>Estos proyectos requieren capacitación para su uso, que yo mismo me encargo de proporcionar como parte del trabajo, tratando de llegar al máximo bienestar del cliente.</p>
+                <p>Estos proyectos requieren capacitación para su uso, que yo mismo me encargo de proporcionar como parte del trabajo, tratando de alcanzar al máximo bienestar del cliente.</p>
             </div>
     },
     {
@@ -16,9 +16,9 @@ const expData = [
         description: 
             <div>
                 <p>COLITUR Cusco es una institución pública que requería solucionar un problema surgido por la pandemia del 2020 – 2021. La necesidad del aislamiento social imposibilitaba las elecciones del nuevo Decano, por esto, solucionamos el problema con tecnología.</p>
-                <p>Desarrollamos una aplicación que permitiera a todos los colegiados participar en el sufragio desde un móvil o una laptop con el menor esfuerzo.</p>
+                <p>Desarrollamos una aplicación que permitiera, a todos los colegiados, participar en el proceso de sufragio desde un móvil o una laptop, con el menor esfuerzo posible.</p>
                 <p>Para este proyecto se usó tecnologías Front-end y Back-end aplicando metodologías que generen mayor seguridad al producto final.</p>
-                <p>Fui el desarrollador principal, logrando un resultado increíble que, en comparación a otros años, la participación del proceso electoral incremento en un 40%</p>
+                <p>Fui el desarrollador principal, logrando un resultado increíble que, en comparación a otros años, la participación en el proceso incremento en un 40%</p>
             </div>
     },
     {
@@ -28,7 +28,7 @@ const expData = [
         description: 
             <div>
                 <p>Empresa de seguridad digital encargada de desarrollar sistemas a medida, soluciones escalables e implementación de propuestas para problemas identificados con servicios en la nube.</p>
-                <p>El desarrollo mantuvo las principales características de la aplicación orientada al cliente final usando tecnologías tanto Front-end como Back-end</p>
+                <p>El desarrollo mantuvo las principales características de la aplicación orientada al cliente final, usando tecnologías tanto Front-end como Back-end</p>
             </div>
     },
     {

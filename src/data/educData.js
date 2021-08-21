@@ -16,8 +16,8 @@ const educData = [
         title: "Platzi",
         description: 
             <div>
-                <p>Platzi es una de mis plataformas de aprendizaje favoritas, tiene grandes cursos y herramientas de aprendizaje que me ayudaron a mejorar mi conocimiento en el Desarrollo de Software e impulsándome a nunca parar de aprender.</p>
-                <p>Gracias a esta increíble plataforma pude aprender nuevos Frameworks de desarrollo que me permitieron crear proyectos increíbles. </p>
+                <p>Platzi es una de mis plataformas de aprendizaje favoritas, tiene grandes cursos y herramientas de enseñanza que me ayudaron a mejorar mi conocimiento en el Desarrollo de Software e impulsándome a nunca parar de aprender.</p>
+                <p>Gracias a esta increíble plataforma pude conocer nuevos Frameworks de desarrollo que me permitieron crear proyectos increíbles. </p>
             </div>,
         logo: "platzi.png"
     },
@@ -27,7 +27,7 @@ const educData = [
         title: "Udemy",
         description: 
             <div>
-                <p>Udemy es otra excelente plataforma que tiene todo lo necesario para seguir aprendiendo de forma mucho más específica, un gran repertorio de cursos a mi disposición y la posibilidad de escoger a mis instructores sin restricciones.</p>
+                <p>Udemy es otra excelente plataforma que tiene todo lo necesario para seguir aprendiendo de forma mucho más flexible, con un gran repertorio de cursos a mi disposición y la posibilidad de escoger a mis instructores sin restricciones.</p>
             </div>,
         logo: "udemy.png"
     },

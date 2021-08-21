@@ -27,7 +27,7 @@ export default class Skills extends Component {
                     <div className="skills">
 
                         <div className="skills_details">
-                            <p>Estas son algunas de las habilidades técnicas que he desarrollado trabajando y aprendiendo</p>
+                            <p>Estas son algunas de las habilidades técnicas que he desarrollado trabajando y aprendiendo:</p>
                         </div>
 
                         <Tabs data={data} />

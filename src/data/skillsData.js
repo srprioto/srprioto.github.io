@@ -4,7 +4,7 @@ const skillsData = [
         title: "Front-end",
         description: 
             <div>
-                <p>Desde que inicié mi trayectoria en el desarrollo, empecé creando interfaces web totalmente personalizadas para empresas terceras con enfoque en el cliente.</p>
+                <p>Desde que inicié mi trayectoria en el desarrollo, empecé creando interfaces web totalmente personalizadas para empresas de terceros con enfoque en el cliente.</p>
                 <p>Con el tiempo logre mejore mis habilidades aprendiendo diversas tecnologías que me ayudaron a obtener mejores resultados, aquí están las que más domino:</p>
                 <div className="list-icon list-two-columns">
                     <ul>

@@ -24,7 +24,7 @@ const projectsData = [
         id: 4,
         name: "MembresiasVip",
         detail: "Proyecto destacado",
-        description: "Startup innovadora que ofrece cupones de descuento de forma muy para obtener ofertas en empresas registradas.",
+        description: "Startup innovadora que ofrece cupones de descuento para obtener ofertas en empresas y productos registrados.",
         image: "membresias.jpg"
     },
     {

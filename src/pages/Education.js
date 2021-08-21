@@ -26,7 +26,7 @@ export default class Education extends Component {
                 <Structure icon={books} title="Educación">
 
                     <div className="education-description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, quas laborum autem distinctio necessitatibus quasi.</p>
+                        <p>Con el fin de alcanzar mejores resultados, intento capacitarme constantemente, estas son algunas de las instituciones y plataformas en las que me eduque:</p>
                     </div>
 
                     <Tabs data={data} />
