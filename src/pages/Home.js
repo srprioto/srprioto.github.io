@@ -108,7 +108,7 @@ class Home extends Component {
                             </div>
                             <div className="show-me">
                                 <Link to="/acerca_de_mi">Acerca de mí <img src={click} alt="Show me more"/></Link>
-                                <a href="/https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing" target="_blank">
+                                <a href="https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing" target="_blank">
                                     Descargar CV 
                                     <img src={downloadcv} alt="download"/>
                                 </a>
