@@ -8,3 +8,31 @@
     width: 23px;
     margin-bottom: 13px;
 }
+
+
+
+@media(max-width:1370px){
+    
+}
+
+@media(max-width:800px){
+
+    .component-media{
+        flex-direction: inherit;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .component-media img {
+        margin: 0 6px;
+    }
+
+}
+
+@media(max-width:500px){
+
+}
+
+@media(max-width:365px){
+
+}

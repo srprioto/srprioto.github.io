@@ -28,7 +28,7 @@ export default function Console() {
                             <h5> </h5>
                             <h5> </h5>
                             <h5>>_ </h5>
-                            <h5>>_   let's code!! </h5>
+                            <h5>>_   Bienvenid@ a mi web!! </h5>
                             <h5>>_ </h5>
                             <h5>>_       ( ( </h5>
                             <h5>>_        ) ) </h5>

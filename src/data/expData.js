@@ -53,7 +53,7 @@ const expData = [
     },
     {
         id: 6,
-        tab: "Skynet Cusco",
+        tab: "SkynetCusco",
         title: "Skynet Cusco",
         description: 
             <div>

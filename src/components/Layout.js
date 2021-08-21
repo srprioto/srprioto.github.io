@@ -20,7 +20,7 @@ export default class Layout extends Component {
                     </div>
 
                     <div className="footer">
-                        <h6>Designed & Built by Renato Luna</h6>
+                        <h6>Designed & Built by Prioto.github.io // renatoluhe@gmail.com</h6>
                     </div>
 
                 </div>

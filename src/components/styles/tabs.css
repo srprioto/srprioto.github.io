@@ -57,3 +57,51 @@
 .tabbs .descrip-tabs .active-descrip img {
     filter: brightness(0.5);
 }
+
+
+@media(max-width:1370px){
+    
+}
+
+@media(max-width:800px){
+    .tabbs{
+        display: block;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .tabbs .button-tabs {
+        height: auto;
+        border-left: none;
+        border-bottom: 1px solid var(--lineas);
+        display: flex;
+        margin-bottom: 30px;
+        overflow-x: scroll;
+    }
+
+    .tabbs .button-tabs .tabs {
+        display: inline-block;
+        padding: 6px 0px;
+        margin: 0 10px;
+    }
+
+    .tabbs .button-tabs .tabs:focus {
+        border-left: none;
+        border-bottom: 1px solid var(--rojo);
+    }
+
+    .tabbs .button-tabs .active-tabs{
+        border-left: none;
+        border-bottom: 1px solid var(--rojo);
+    }
+
+
+}
+
+@media(max-width:500px){
+
+}
+
+@media(max-width:365px){
+
+}

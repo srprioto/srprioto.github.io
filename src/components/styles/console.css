@@ -46,3 +46,50 @@
     height: 100%;
     text-align: left;
 }
+
+
+@media(max-width:1370px){
+
+    /* consola */
+    .linux_desktop {
+        height: 320px;
+        width: 410px;
+        margin: 0;
+    }
+
+    .linux_desktop .console {
+        width: 320px;
+        height: 230px;
+    }
+
+    .linux_desktop .console h5 {
+        font-size: 0.7em;
+    }
+    /* fin consola */
+
+}
+
+@media(max-width:800px){
+    .linux_desktop {
+        height: auto;
+        width: auto;
+        background: transparent;
+    }
+
+    .linux_desktop .console{
+        margin: 0;
+    }
+}
+
+@media(max-width:500px){
+    .linux_desktop .console{ 
+        width: 270px;
+        height: 220px;
+    }
+}
+
+@media(max-width:370px){
+
+    
+
+}

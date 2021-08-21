@@ -151,3 +151,61 @@ li{list-style: none;}
 .cutout{
     height: calc(100vh - 330px);
 }
+
+@media(max-width:1370px){
+    .list-two-columns ul {
+        columns: 3;
+    }
+}
+
+.iconHiddenPC{
+    display: none;
+}
+
+.iconHiddenMovil{
+    display: inline-block;
+}
+
+@media(max-width:800px){
+
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    .container {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .scroll {
+        overflow: visible
+    }
+
+    .cutout {
+        height: 100%;
+    }
+
+    .iconHiddenMovil{
+        display: none;
+    }
+
+    .iconHiddenPC{
+        display: inline-block;
+    }
+
+}
+
+@media(max-width:500px){
+    body, #root{
+        font-size: 14px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width:365px){
+    
+}
+

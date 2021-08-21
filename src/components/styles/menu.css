@@ -50,3 +50,28 @@
         opacity: 0;
     }
 }
+
+
+
+@media(max-width:1370px){
+    
+}
+
+@media(max-width:800px){
+
+    .menu ul li {
+        margin: 0 0 15px 0;
+    }
+
+    .menu ul li a {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width:500px){
+
+}
+
+@media(max-width:365px){
+
+}

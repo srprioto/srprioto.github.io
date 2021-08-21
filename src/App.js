@@ -31,6 +31,41 @@ function App() {
                     <Route exact path='/login' component={Popo} />
                     <Route exact path='/wp-admin' component={Popo} />
                     <Route path="/404" component={NotFound} />
+
+                    <Route path='/cv' component={() => { 
+                        window.location.href = 'https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing'; 
+                        return null;
+                    }}/>
+
+                    <Route path='/github' component={() => { 
+                        window.location.href = 'https://github.com/srprioto'; 
+                        return null;
+                    }}/>
+
+                    <Route path='/phone' component={() => { 
+                        window.location.href = 'tel:+51984741614'; 
+                        return null;
+                    }}/>
+
+                    <Route path='/wspweb' component={() => { 
+                        window.location.href = 'https://web.whatsapp.com/send?phone=+51984741614'; 
+                        return null;
+                    }}/>
+
+                    <Route path='/wspmovil' component={() => { 
+                        window.location.href = 'https://api.whatsapp.com/send?phone=+51984741614'; 
+                        return null;
+                    }}/>
+
+                    <Route path='/mailto' component={() => { 
+                        window.location.href = 'mailto:renatoluhe@gmail.com'; 
+                        return null;
+                    }}/>
+
+
+
+
+
                     <Redirect from="*" to="/404" />
                 </Switch>
             </AnimatePresence>

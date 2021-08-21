@@ -35,3 +35,24 @@
     width: 100%;
     align-items: center;
 } */
+
+@media(max-width:1370px){
+
+}
+
+@media(max-width:800px){
+    .layout .main .header {
+        margin-top: 70px;
+    }
+
+}
+
+@media(max-width:500px){
+    .layout .main .header {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:370px){
+
+}
