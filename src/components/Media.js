@@ -16,31 +16,30 @@ export default function Media(props) {
         <div className="component-media">
 
 
-
             {/* <Link to="/" >
                 <img src={twitter} alt="twitter" className="icon-twitter"/>
             </Link> */}
 
 
-            <Link to="/phone" target="_blank" className="iconHiddenPC">
+            <a href="tel:+51984741614" target="_blank" className="iconHiddenPC">
                 <img src={phone} alt="phone" className="icon-phone"/>
-            </Link>
+            </a>
 
-            <Link to="/wspweb" target="_blank"  className="iconHiddenMovil">
+            <a href="https://web.whatsapp.com/send?phone=+51984741614" target="_blank"  className="iconHiddenMovil">
                 <img src={wsp} alt="wsp" className="icon-wsp"/>
-            </Link>
+            </a>
 
-            <Link to="/wspmovil" target="_blank"  className="iconHiddenPC">
+            <a href="https://api.whatsapp.com/send?phone=+51984741614" target="_blank"  className="iconHiddenPC">
                 <img src={wsp} alt="wsp" className="icon-wsp"/>
-            </Link>
+            </a>
 
-            <Link to="/mailto" target="_blank">
+            <a href="mailto:renatoluhe@gmail.com" target="_blank">
                 <img src={mail} alt="mail" className="icon-mail"/>
-            </Link>
+            </a>
 
-            <Link to="/github" target="_blank">
+            <a href="https://github.com/srprioto" target="_blank">
                 <img src={github} alt="github" className="icon-github"/>
-            </Link>
+            </a>
 
             <Link to="/" >
                 <img src={linkedin} alt="linkedin" className="icon-linkedin"/>

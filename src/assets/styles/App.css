@@ -91,7 +91,7 @@ strong {
 
 .list-icon ul li {
     position: relative;
-    margin: 6px 0 10px 14px;
+    margin: 0 0 10px 14px;
     padding-left: 10px;
 }
 
@@ -153,9 +153,9 @@ li{list-style: none;}
 }
 
 @media(max-width:1370px){
-    .list-two-columns ul {
+    /* .list-two-columns ul {
         columns: 3;
-    }
+    } */
 }
 
 .iconHiddenPC{

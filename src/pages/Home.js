@@ -46,9 +46,9 @@ class Home extends Component {
                             <div className="main-home">
                                 <div className="box1 box-img-media">
 
-                                    <Link to="/github" target="_blank">
+                                    <a href="https://github.com/srprioto" target="_blank">
                                         <img src={github} alt="github" className="icon-github"/>
-                                    </Link>
+                                    </a>
 
                                     <Link to="/" >
                                         <img src={linkedin} alt="linkedin" className="icon-linkedin"/>
@@ -88,30 +88,30 @@ class Home extends Component {
                                 </div>
                                 <div className="box4 box-img-media">
 
-                                    <Link to="/phone" target="_blank" className="iconHiddenPC">
+                                    <a href="tel:+51984741614" target="_blank" className="iconHiddenPC">
                                         <img src={phone} alt="phone" className="icon-phone"/>
-                                    </Link>
+                                    </a>
 
-                                    <Link to="/wspweb" target="_blank"  className="iconHiddenMovil">
+                                    <a href="https://web.whatsapp.com/send?phone=+51984741614" target="_blank"  className="iconHiddenMovil">
                                         <img src={wsp} alt="wsp" className="icon-wsp"/>
-                                    </Link>
+                                    </a>
 
-                                    <Link to="/wspmovil" target="_blank"  className="iconHiddenPC">
+                                    <a href="https://api.whatsapp.com/send?phone=+51984741614" target="_blank"  className="iconHiddenPC">
                                         <img src={wsp} alt="wsp" className="icon-wsp"/>
-                                    </Link>
+                                    </a>
 
-                                    <Link to="/mailto" target="_blank">
+                                    <a href="mailto:renatoluhe@gmail.com" target="_blank">
                                         <img src={mail} alt="mail" className="icon-mail"/>
-                                    </Link>
+                                    </a>
 
                                 </div>
                             </div>
                             <div className="show-me">
                                 <Link to="/acerca_de_mi">Acerca de mí <img src={click} alt="Show me more"/></Link>
-                                <Link to="/cv" target="_blank">
+                                <a href="/https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing" target="_blank">
                                     Descargar CV 
                                     <img src={downloadcv} alt="download"/>
-                                </Link>
+                                </a>
 
                                 {/* https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing */}
 

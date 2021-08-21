@@ -17,7 +17,7 @@
     border-radius: 10px;
     box-shadow: 4px 3px 5px 0px #0000006e;
     overflow: hidden;
-    opacity: 80%;
+    opacity: 0.8;
     cursor: move;
 }
 
@@ -78,6 +78,7 @@
 
     .linux_desktop .console{
         margin: 0;
+        opacity: 1;
     }
 }
 
