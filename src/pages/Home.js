@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link, Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Typed from 'react-typed';
 import { motion } from 'framer-motion';
 import './styles/home.css'
@@ -9,7 +9,7 @@ import Console from '../components/Console';
 
 import github from '../assets/images/contacto/github.svg';
 import linkedin from '../assets/images/contacto/linkedin.svg';
-import twitter from '../assets/images/contacto/twitter.svg';
+// import twitter from '../assets/images/contacto/twitter.svg';
 import phone from '../assets/images/contacto/phone.svg';
 import wsp from '../assets/images/contacto/wsp.svg';
 import mail from '../assets/images/contacto/mail.svg';

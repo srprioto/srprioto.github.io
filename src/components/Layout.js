@@ -11,7 +11,7 @@ export default class Layout extends Component {
                     
                     <div className="main">
                         <div className="header">
-                            <Link to="/"><h1>Prioto.<strong>github.io</strong></h1></Link>
+                            <Link to="/"><h1>SrPrioto.<strong>github.io</strong></h1></Link>
                         </div>
 
                         <div className="body-app">
