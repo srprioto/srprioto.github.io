@@ -39,7 +39,7 @@ export default class Perfil extends Component {
                                 <li>Pensamiento lateral</li>
                                 <li>Trabajo en equipo</li>
                                 <li>Empatía</li>
-                                <li>iniciativa para relacionarme con el equipo</li>
+                                <li>Iniciativa para relacionarme con el equipo</li>
                                 <li>Propiedad colectiva</li>
                                 <li>Atención a los detalles</li>
                                 <li>Suficiencia para capacitar y enseñar</li>

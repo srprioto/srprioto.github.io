@@ -6,6 +6,7 @@ import './styles/home.css'
 
 import Layout from '../components/Layout';
 import Console from '../components/Console';
+import ConsoleMovil from '../components/ConsoleMovil'
 
 import github from '../assets/images/contacto/github.svg';
 import linkedin from '../assets/images/contacto/linkedin.svg';
@@ -83,8 +84,11 @@ class Home extends Component {
                                         <p>renatoluhe@gmail.com</p>
                                     </div>
                                 </div>
-                                <div className="box3">
+                                <div className="box3 consoleDesktop">
                                     <Console />
+                                </div>
+                                <div className="box3 consoleResponsive">
+                                    <ConsoleMovil />
                                 </div>
                                 <div className="box4 box-img-media">
 
@@ -106,14 +110,18 @@ class Home extends Component {
 
                                 </div>
                             </div>
+
                             <div className="show-me">
-                                <Link to="/acerca_de_mi">Acerca de mí <img src={click} alt="Show me more"/></Link>
+
+                                <Link to="/acerca_de_mi" className="showmore">
+                                    Ver más aquí
+                                    <img src={click} alt="Show me more"/>
+                                </Link>
+
                                 <a href="https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing" target="_blank">
                                     Descargar CV 
                                     <img src={downloadcv} alt="download"/>
                                 </a>
-
-                                {/* https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing */}
 
                             </div>
                         </div>

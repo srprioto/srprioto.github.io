@@ -76,11 +76,43 @@
     font-weight: 500;
 }
 
+.home .show-me .showmore{
+    animation: pulses 3s infinite;
+}
+
+@keyframes pulses{
+
+    0% {
+        color: var(--blanco);
+    }
+    25% {
+        color: var(--plomo);
+    }
+    50% {
+        color: var(--blanco);
+    }
+    75% {
+        color: var(--plomo);
+    }
+    100% {
+        color: var(--blanco);
+    }
+
+}
+
 .home .show-me a img {
     width: 23px;
     margin-left: 5px;
     vertical-align: middle;
 }
+
+.consoleDesktop{
+    display: flex!important;
+} 
+
+.consoleResponsive{
+    display: none!important;
+}  
 
 
 @media(max-width:1370px){
@@ -91,9 +123,6 @@
         justify-content: flex-end;
     }
     /* fin consola */
-
-
-
 
 }
 
@@ -149,9 +178,23 @@
 }
 
 @media(max-width:500px){
+    
     .home .main-home .box2 .box h3 {
         font-size: 1.5em;
     }
+
+    .home .main-home .box1, 
+    .home .main-home .box4{
+        display: none;
+    }
+
+    .consoleDesktop{
+        display: none!important;
+    } 
+
+    .consoleResponsive{
+        display: flex!important;
+    }   
 }
 
 @media(max-width:365px){
