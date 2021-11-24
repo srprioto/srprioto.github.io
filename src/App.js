@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 import './assets/fuentes/fuentes.css';
@@ -19,7 +19,7 @@ import Popo from './pages/Popo.js';
 function App() {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <AnimatePresence>
                 <Switch>
                     <Route exact path='/' component={Home} />
@@ -69,7 +69,7 @@ function App() {
                     <Redirect from="*" to="/404" />
                 </Switch>
             </AnimatePresence>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
