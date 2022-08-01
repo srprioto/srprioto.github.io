@@ -17,7 +17,7 @@ export default class Perfil extends Component {
 
                         <div className="description_profile">
                             <p>
-                                ¡Hola! Mi nombre es Renato y soy Ingeniero de sistemas con experiencia en el Desarrollo de Software, enfocado en crear soluciones digitales y productos para Internet.
+                                ¡Hola! Mi nombre es Renato y soy Ingeniero de Sistemas con experiencia en el desarrollo de software, enfocado en crear soluciones digitales y productos para Internet.
                             </p>
                             <p>
                                 Me ocupo de construir aplicaciones web únicas, rápidas y de fácil acceso, disponibles para todo tipo de dispositivos móviles y escritorio, que permitan una sencilla comunicación entre empresas y clientes.
