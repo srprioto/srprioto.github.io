@@ -16,6 +16,9 @@ import wsp from '../assets/images/contacto/wsp.svg';
 import mail from '../assets/images/contacto/mail.svg';
 import click from '../assets/images/iconos/cursor.svg';
 import downloadcv from '../assets/images/iconos/download.svg';
+import cv from "../assets/docs/cv.pdf";
+
+
 
 class Home extends Component {
 
@@ -118,7 +121,11 @@ class Home extends Component {
                                     <img src={click} alt="Show me more"/>
                                 </Link>
 
-                                <a href="https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing" target="_blank">
+                                {/* <a href="https://drive.google.com/file/d/1_w0AoCxYz6jXPwnI70WfwSCcfUUP51aB/view?usp=sharing" target="_blank">
+                                    Descargar CV 
+                                    <img src={downloadcv} alt="download"/>
+                                </a> */}
+                                <a href={cv} target="_blank">
                                     Descargar CV 
                                     <img src={downloadcv} alt="download"/>
                                 </a>
