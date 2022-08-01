@@ -33,7 +33,6 @@ class Home extends Component {
         
     }
 
-
     render() {
 
         return (
@@ -117,7 +116,7 @@ class Home extends Component {
                             <div className="show-me">
 
                                 <Link to="/acerca_de_mi" className="showmore">
-                                    Ver más aquí
+                                    Mas sobre mi
                                     <img src={click} alt="Show me more"/>
                                 </Link>
 
