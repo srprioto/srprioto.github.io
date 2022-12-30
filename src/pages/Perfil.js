@@ -23,13 +23,13 @@ export default class Perfil extends Component {
                                 Me ocupo de construir aplicaciones web únicas, rápidas y de fácil acceso, disponibles para todo tipo de dispositivos móviles y escritorio, que permitan una sencilla comunicación entre empresas y clientes.
                             </p>
                             <p>
-                                Me gusta resolver problemas usando tecnología, automatizando procesos y trabajando en proyectos ambiciosos con gente positiva y brillante. 
+                                Me gusta resolver problemas usando tecnología, automatizando procesos y trabajando en proyectos ambiciosos con gente positiva y brillante.
                             </p>
                             <p>
-                                Trabaje en empresas de desarrollo web, seguridad digital, y de forma independiente para diferentes sectores, como educación, turismo, etc.
+                                Trabaje en empresas de desarrollo web, seguridad digital, y de forma independiente para diferentes sectores, como la educación, turismo, ventas, etc.
                             </p>
                             <p>
-                                Mantengo mi conocimiento constantemente actualizando, aprendiendo nuevas tecnologías de diferentes plataformas online y progresando persistentemente mientras afronto nuevas dificultades.
+                                Mantengo mi conocimiento constantemente actualizando, aprendiendo nuevas tecnologías en diferentes plataformas online y progresando persistentemente mientras afronto nuevas dificultades.
                             </p>
                             <p>He aquí algunas habilidades personales que intento mejorar:</p>
                         </div>

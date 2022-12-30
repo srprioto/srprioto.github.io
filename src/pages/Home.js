@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Typed from 'react-typed';
 import { motion } from 'framer-motion';
-import './styles/home.css'
+import './styles/home.css';
 
 import Layout from '../components/Layout';
 import Console from '../components/Console';
@@ -17,7 +17,6 @@ import mail from '../assets/images/contacto/mail.svg';
 import click from '../assets/images/iconos/cursor.svg';
 import downloadcv from '../assets/images/iconos/download.svg';
 import cv from "../assets/docs/cv.pdf";
-
 
 
 class Home extends Component {
@@ -70,9 +69,9 @@ class Home extends Component {
                                             <strong>
                                                 <Typed
                                                     strings={[
-                                                        'Desarrollador Full Stack11',
-                                                        'Freelancer',
-                                                        'Desarrollador de Software'
+                                                        'Ingeniero de Sistemas',
+                                                        'Desarrollador de Software',
+                                                        'Desarrollador Full Stack',
                                                     ]}
                                                     typeSpeed={70}
                                                     backSpeed={40}

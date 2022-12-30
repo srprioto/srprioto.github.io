@@ -1,16 +1,17 @@
 const expData = [
+
+    // {
+    //     id: 1,
+    //     tab: "Freelance",
+    //     title: "Freelance",
+    //     description: 
+    //         <div>
+    //             <p>Actualmente me dedico a la creación de aplicaciones de forma independiente como desarrollador FullStack, esto me permite seguir acumulando experiencia con distintos proyectos para clientes y empresas que lo requieran.</p>
+    //             <p>Estos proyectos requieren capacitación para su uso, que yo mismo me encargo de proporcionar como parte del trabajo, tratando de alcanzar al máximo bienestar del cliente.</p>
+    //         </div>
+    // },
     {
         id: 1,
-        tab: "Freelance",
-        title: "Freelance",
-        description: 
-            <div>
-                <p>Actualmente me dedico a la creación de aplicaciones de forma independiente como desarrollador FullStack, esto me permite seguir acumulando experiencia con distintos proyectos para clientes y empresas que lo requieran.</p>
-                <p>Estos proyectos requieren capacitación para su uso, que yo mismo me encargo de proporcionar como parte del trabajo, tratando de alcanzar al máximo bienestar del cliente.</p>
-            </div>
-    },
-    {
-        id: 2,
         tab: "COLITUR",
         title: "Colegio de Licenciados en Turismo Cusco",
         description: 
@@ -22,7 +23,7 @@ const expData = [
             </div>
     },
     {
-        id: 3,
+        id: 2,
         tab: "SeguriVision",
         title: "SeguriVision",
         description: 
@@ -31,18 +32,29 @@ const expData = [
                 <p>El desarrollo mantuvo las principales características de la aplicación orientada al cliente final, usando tecnologías tanto Front-end como Back-end</p>
             </div>
     },
+    // {
+    //     id: 4,
+    //     tab: "MembresiasVip",
+    //     title: "MembresiasVip",
+    //     description: 
+    //         <div>
+    //             <p>Startup encargada de vender cupones de descuento para empresas registradas en la plataforma, esta aplicación poseía una interfaz excepcional de cara al cliente.</p>
+    //             <p>Estuve encargado del desarrollo de la parte lógica de la aplicación junto a un increíble equipo, contando con diseñadores y programadores que también trabajaron en el proyecto.</p>
+    //         </div>
+    // },
     {
-        id: 4,
-        tab: "MembresiasVip",
-        title: "MembresiasVip",
+        id: 3,
+        tab: "AddidSport",
+        title: "AddidSport",
         description: 
             <div>
-                <p>Startup encargada de vender cupones de descuento para empresas registradas en la plataforma, esta aplicación poseía una interfaz excepcional de cara al cliente.</p>
-                <p>Estuve encargado del desarrollo de la parte lógica de la aplicación junto a un increíble equipo, contando con diseñadores y programadores que también trabajaron en el proyecto.</p>
+                <p>Es una empresa distribuidora de productos deportivos de la mejor calidad en la región del Cusco y alrededores.</p>
+                <p>Dicha empresa requería un sistema contable, facturación y ventas para dirigir y mejorar el control interno.</p>
+                <p>Mi trabajo fue encargarme de dirigir el diseño y desarrollo del sistema que ahora funge como pieza fundamental para el desempeño de AddidSport.</p>
             </div>
     },
     {
-        id: 5,
+        id: 4,
         tab: "Intik’anchay",
         title: "Intik’anchay",
         description: 
@@ -52,7 +64,7 @@ const expData = [
             </div>
     },
     {
-        id: 6,
+        id: 5,
         tab: "SkynetCusco",
         title: "Skynet Cusco",
         description: 
