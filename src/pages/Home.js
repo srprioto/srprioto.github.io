@@ -70,7 +70,7 @@ class Home extends Component {
                                             <strong>
                                                 <Typed
                                                     strings={[
-                                                        'Desarrollador Full Stack',
+                                                        'Desarrollador Full Stack11',
                                                         'Freelancer',
                                                         'Desarrollador de Software'
                                                     ]}
