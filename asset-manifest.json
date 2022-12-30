@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.831cb40e.chunk.css",
-    "main.js": "/static/js/main.97dbaa4b.chunk.js",
-    "main.js.map": "/static/js/main.97dbaa4b.chunk.js.map",
+    "main.js": "/static/js/main.361b8458.chunk.js",
+    "main.js.map": "/static/js/main.361b8458.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d348d3a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.d348d3a0.js.map",
     "static/js/2.da414ab5.chunk.js": "/static/js/2.da414ab5.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/books.527b5b85.svg": "/static/media/books.527b5b85.svg",
     "static/media/close.500d71ab.svg": "/static/media/close.500d71ab.svg",
     "static/media/cursor.a5763e1c.svg": "/static/media/cursor.a5763e1c.svg",
-    "static/media/cv.4c464702.pdf": "/static/media/cv.4c464702.pdf",
+    "static/media/cv.24277401.pdf": "/static/media/cv.24277401.pdf",
     "static/media/download.e356eeeb.svg": "/static/media/download.e356eeeb.svg",
     "static/media/experience.94dd6083.svg": "/static/media/experience.94dd6083.svg",
     "static/media/gear.23f893fc.svg": "/static/media/gear.23f893fc.svg",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.d348d3a0.js",
     "static/js/2.da414ab5.chunk.js",
     "static/css/main.831cb40e.chunk.css",
-    "static/js/main.97dbaa4b.chunk.js"
+    "static/js/main.361b8458.chunk.js"
   ]
 }
